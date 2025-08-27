@@ -1,0 +1,31 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background: #765341;
+}
+
+.card {
+    width:300px;
+    background: #d8cbc4;
+    color: #765341;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    padding: 20px;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+}
